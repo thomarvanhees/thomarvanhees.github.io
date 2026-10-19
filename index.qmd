@@ -14,7 +14,7 @@ PhD in Economics and Finance<br>Tor Vergata University of Rome
 
 
 <p class="hero-links">
-<a href="mailto:van.hees.thomar@gmail.com">van.hees.thomar@gmail.com</a>
+<a href="mailto:thomar.vanhees@students.uniroma2.eu">thomar.vanhees@students.uniroma2.eu</a>
 <a href="files/CV.pdf">CV</a>
 <a href="files/JMP.pdf">Job Market Paper</a>
 </p>
@@ -137,4 +137,4 @@ Tor Vergata University of Rome<br>
 ## Contact {#contact}
 
 Department of Economics and Finance, Tor Vergata University of Rome<br>
-[van.hees.thomar@gmail.com](mailto:van.hees.thomar@gmail.com)
+[thomar.vanhees@students.uniroma2.eu](mailto:thomar.vanhees@students.uniroma2.eu)
