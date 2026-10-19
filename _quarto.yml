@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs          # GitHub Pages serves the site from this folder
+  resources:
+    - files/                # copies your JMP and CV PDFs into the website
+
+website:
+  title: "Thomar P. van Hees"
+  search: false
+  site-url: "https://thomarvanhees.github.io"
+  navbar:
+    background: light
+    right:
+      - text: "Research"
+        href: index.qmd#research
+      - text: "Teaching"
+        href: index.qmd#teaching
+      - text: "CV"
+        href: files/CV.pdf
+      - text: "Contact"
+        href: index.qmd#contact
+  page-footer:
+    left: "Thomar P. van Hees · Last updated October 2026"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: false
+    page-layout: article
+    smooth-scroll: true
+    link-external-newwindow: true

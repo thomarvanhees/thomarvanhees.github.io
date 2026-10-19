@@ -1,0 +1,96 @@
+/* Clean academic look: serif headings, calm navy accent, narrow reading column */
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&family=Source+Sans+3:wght@400;600&display=swap');
+
+:root {
+  --accent: #1f3a5f;
+  --muted: #5f6b7a;
+  --soft: #eef2f7;
+  --rule: #e2e6eb;
+}
+
+body {
+  font-family: "Source Sans 3", -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: #1e2430;
+}
+
+h1, h2, h3, .title, .navbar-title {
+  font-family: "Source Serif 4", Georgia, serif;
+  color: #1e2430;
+}
+
+a { color: var(--accent); }
+
+/* Navbar */
+.navbar { border-bottom: 1px solid var(--rule); }
+.navbar-title { font-weight: 600; }
+
+/* Header block: photo left, name and links right (stacks on phones) */
+.hero { display: flex; align-items: center; gap: 2rem; margin: 1.5rem 0 2.5rem; }
+.hero p:has(> .hero-photo), .hero figure { margin: 0; flex: none; }
+.hero-photo { width: 160px; height: 160px; border-radius: 50%; object-fit: cover; border: 1px solid var(--rule); }
+.hero-text { min-width: 0; }
+.hero-text h1 { font-size: 2.4rem; margin: 0 0 0.3rem; border: none; }
+.hero-text p { color: var(--muted); margin-bottom: 0.6rem; }
+.hero-text .jm-badge { color: var(--accent); margin: 0.2rem 0 0.7rem; }
+.hero-links { display: flex; flex-wrap: wrap; gap: 0.4rem 1.2rem; font-size: 0.98rem; }
+.hero-links a { color: var(--accent); }
+@media (max-width: 600px) {
+  .hero { flex-direction: column; align-items: flex-start; gap: 1rem; }
+  .hero-photo { width: 120px; height: 120px; }
+  .hero-text h1 { font-size: 2rem; }
+}
+
+.hero-text .jm-badge, .jm-badge {
+  display: inline-block;
+  background: var(--soft);
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 3px 12px;
+  border-radius: 999px;
+  margin-bottom: 1rem;
+}
+
+/* Section headings */
+h2 {
+  margin-top: 2.6rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid var(--rule);
+  font-size: 1.6rem;
+}
+h3 {
+  font-size: 1.1rem;
+  font-family: "Source Sans 3", Arial, sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--muted);
+  margin-top: 1.8rem;
+}
+
+/* Papers */
+.paper { margin-bottom: 1.3rem; }
+.paper.jmp {
+  background: var(--soft);
+  border-radius: 10px;
+  padding: 1rem 1.25rem 0.6rem;
+}
+.paper.jmp > p:first-child a { font-size: 1.2rem; text-decoration: none; }
+.meta { color: var(--muted); font-size: 0.95rem; }
+
+details summary {
+  cursor: pointer;
+  color: var(--accent);
+  font-weight: 600;
+  font-size: 0.95rem;
+  width: fit-content;
+}
+details[open] summary { margin-bottom: 0.4rem; }
+details p { font-size: 0.97rem; }
+
+/* References in three columns on wide screens */
+.refs { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.2rem; }
+.ref { min-width: 0; font-size: 0.97rem; }
+.ref a { font-size: 0.88rem; word-break: normal; overflow-wrap: anywhere; }
+@media (max-width: 700px) { .refs { grid-template-columns: 1fr; } }
