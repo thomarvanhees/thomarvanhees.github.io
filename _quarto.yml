@@ -3,11 +3,14 @@ project:
   output-dir: docs          # GitHub Pages serves the site from this folder
   resources:
     - files/                # copies your JMP and CV PDFs into the website
+    - google*.html          # Google Search Console verification file
 
 website:
   title: "Thomar P. van Hees"
   search: false
   site-url: "https://thomarvanhees.github.io"
+  description: "Thomar P. van Hees, economist (PhD, Tor Vergata). Research in monetary economics, banking and macro-finance. 2026–27 job market candidate."
+
   navbar:
     background: light
     right:
