@@ -39,7 +39,22 @@ I am an economist working on **monetary economics, banking and macro-finance**. 
 <details open>
 <summary>Abstract</summary>
 
-Why do some depositors fund traditional banks while others fund shadow banks? This paper develops a monetary model of banking to provide an information-based explanation for the coexistence of traditional and shadow banks. Depositors can either monitor banks ex ante, at a cost that differs across households, or rely on costly ex post verification. Shadow banks attract depositors who monitor, while traditional banks attract depositors who rely on verification. The key mechanism links money demand to monitoring incentives: monitoring depositors earn a higher deposit rate and hold more money, which affects aggregate liquidity and the size of the shadow banking system, which in turn affects the incentive to monitor. With heterogeneous monitoring costs, monitoring decisions are either strategic complements or substitutes depending on the nominal interest rate. The model predicts a non-monotone response of the shadow banking system to the nominal interest rate. Because households ignore their effect on aggregate liquidity and on verification costs, the shadow banking system is too large at low interest rates and too small at high interest rates.
+Why do some depositors fund traditional banks while others fund shadow banks? This
+paper develops a monetary model of banking to provide an information-based explanation
+for the coexistence of traditional and shadow banks. Depositors can either monitor banks ex
+ante, at a cost that differs across households, or rely on costly ex post verification. Shadow
+banks attract depositors who monitor, while traditional banks attract depositors who rely on
+verification. The key mechanism links money demand to monitoring incentives: monitoring
+depositors earn a higher deposit rate and hold more money, which affects aggregate liquidity
+and the size of the shadow banking system, which in turn affects the incentive to monitor.
+In symmetric pure-strategy equilibria, this feedback rules out shadow banking when
+monitoring costs are identical. With heterogeneous monitoring costs, monitoring decisions
+are strategic complements when both types of banks are active and strategic substitutes
+when only shadow banks are active. A monetary tightening expands the shadow banking
+system at low nominal interest rates, but contracts it at high nominal interest rates. Because
+households ignore their effect on aggregate liquidity and on verification costs, the shadow
+banking system is too large relative to its efficient size at low nominal interest rates and too
+small at high interest rates.
 
 </details>
 :::
