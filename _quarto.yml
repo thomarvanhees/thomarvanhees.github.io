@@ -6,10 +6,10 @@ project:
     - google*.html          # Google Search Console verification file
 
 website:
-  title: "Thomar P. van Hees"
+  title: "Thomar van Hees"
   search: false
   site-url: "https://thomarvanhees.github.io"
-  description: "Thomar P. van Hees, economist (PhD, Tor Vergata). Research in monetary economics, banking and macro-finance. 2026–27 job market candidate."
+  description: "Thomar van Hees, economist (PhD, Tor Vergata). Research in monetary economics, banking and macro-finance. 2026–27 job market candidate."
 
   navbar:
     background: light
@@ -23,7 +23,7 @@ website:
       - text: "Contact"
         href: index.qmd#contact
   page-footer:
-    left: "Thomar P. van Hees · Last updated October 2026"
+    left: "Thomar van Hees · Last updated October 2026"
 
 format:
   html:

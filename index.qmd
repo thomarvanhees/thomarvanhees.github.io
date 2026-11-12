@@ -1,12 +1,12 @@
 ---
-pagetitle: "Thomar P. van Hees"
+pagetitle: "Thomar van Hees"
 ---
 
 ::: {.hero}
-![](images/profile.jpg){.hero-photo fig-alt="Photo of Thomar P. van Hees"}
+![](images/profile.jpg){.hero-photo fig-alt="Photo of Thomar van Hees"}
 
 ::: {.hero-text}
-# Thomar P. van Hees {.unnumbered .unlisted}
+# Thomar van Hees {.unnumbered .unlisted}
 
 PhD in Economics and Finance<br>Tor Vergata University of Rome
 
